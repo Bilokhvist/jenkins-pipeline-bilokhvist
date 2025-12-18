@@ -22,7 +22,7 @@ pipeline {
                     sh 'docker tag bilokhvistapp:latest $DOCKER_USER/bilokhvistapp:latest'
                     sh 'docker push $DOCKER_USER/bilokhvistapp:latest'
                 }
-
+            }
         }
     }
 }
